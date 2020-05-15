@@ -1,0 +1,155 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    width: 1360px;
+    height: 100%;
+    font-size: small;
+}
+
+body {
+    display: grid;
+    font-family: arial,sans-serif;
+}
+
+header {
+    width: 1360px;
+    height: 50px;
+    text-align: right;
+}
+
+nav {
+    margin-right: 30px;
+}
+
+nav img {
+    margin-top: 10px;
+}
+.container {
+    display: inherit;
+    align-self: flex-start;
+    justify-self: center;
+    margin-bottom: 20px;
+}
+
+img style {
+    width: 50%;
+    background-color: transparent;
+    border: none;
+}
+
+.logo {
+    display: inherit;
+    justify-self: center;
+}
+
+.cja-search {
+    display: flex;
+    justify-content: left;
+    width: 450px;
+    height: 35px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 25px;
+}
+
+.cja-search img {
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.search {
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    color: rgba(0,0,0,.87);
+    font-size: 16px;
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0px;
+    padding: 0px 16px;
+    font-size: 14px;
+}
+
+input .btn {
+    padding: 0px 5px;
+    background-color: #f8f8f8;
+    color: #5F6368;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+input .btn:hover {
+    border: 1px solid #c6c6c6;
+    color: #222;
+    cursor: pointer;
+}
+
+.lenguaje {
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    color: #222;
+}
+
+.lenguaje a {
+    text-decoration: none;
+}
+
+.lenguaje a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    width:1440px;
+    height: 30px;
+    margin-top: 230px;
+    background-color: #f2f2f2;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    text-align: left;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+}
+
+.about a {
+    margin-right: 25px;
+}
+
+.setting {
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 50px;
+    text-align: right;
+}
+
+.setting a {
+    margin-right: 25px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #5f6368;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #5f6368;
+}
