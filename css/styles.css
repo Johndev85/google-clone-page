@@ -83,9 +83,9 @@ nav {
 }
 
 .cja-search img {
-    width: 25px;
-    height: 25px;
-    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    margin-top: 6px;
     margin-left: 10px;
 }
 
@@ -106,19 +106,36 @@ nav {
     font-size: 14px;
 }
 
-input .btn {
-    padding: 0px 5px;
+#btn1 {
     background-color: #f8f8f8;
+    border: 1px solid #f2f2f2;
     color: #5F6368;
     border-radius: 2px;
+    padding: 10px;
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
 
-input .btn:hover {
+#btn1:hover {
     border: 1px solid #c6c6c6;
     color: #222;
     cursor: pointer;
 }
+
+#btn2 {
+    background-color: #f8f8f8;
+    border: 1px solid #f2f2f2;
+    color: #5F6368;
+    border-radius: 2px;
+    padding: 10px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+#btn2:hover {
+    border: 1px solid #c6c6c6;
+    color: #222;
+    cursor: pointer;
+}
+
 
 .lenguaje {
     display: flex;
@@ -137,21 +154,22 @@ input .btn:hover {
 
 footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     font-size: 14px;
-    width:1440px;
+    width:100%;
+    box-sizing: border-box;            /* -----------TRUCAZO!!!---------- */
     height: 30px;
-    margin-top: 260px;
+    margin-top: 250px;
     background-color: #f2f2f2;
 }
 
 .about {
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     width: 500px;
     text-align: left;
     margin-top: 10px;
-    margin-right: 50px;
+    margin-left: 30px;
 }
 
 .about a {
