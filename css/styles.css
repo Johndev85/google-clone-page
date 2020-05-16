@@ -1,51 +1,79 @@
 
+
+/* --------------------------------------------------VARIABLES------------------------ */
+:root {
+    --black-standar: rgba(0,0,0,0.87);
+}
+
+/* <-----------------------------------------------------------------------> */
+
 * {
-    margin: 0px;
+    margin: 0px;       /*  reset css default all html  */
     padding: 0px;
 }
 
-html, body {
-    width: 1280px;
-    height: 100%;
-    font-size: small;
-}
-
 body {
+    font-size: small;
     display: grid;
     font-family: arial,sans-serif;
 }
-
+/* <------------------------------------------------------HEADER-------> */
 header {
-    width: 1360px;
+    width: 100%;
     height: 50px;
-    text-align: right;
 }
 
-nav {
+header nav {
+    display: flex;
+    justify-content: flex-end;
     margin-right: 30px;
-    margin-top: 10px;
 }
 
-.nav-menu {
+header nav ul {
+    display: inherit;
+    margin-top: 25px;
+}
+
+header nav ul li {
+    height: auto;
+    list-style-type: none;
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ header .nav-menu {
     text-decoration: none;
-    color: rgba(0,0,0,0.87);
+    color: var(--black-standar);
     margin-right: 10px;
 }
 
-.nav-menu:hover {
+header .nav-menu:hover {
     text-decoration: underline;
     font-weight: 500;
 }
 
+#menu:hover {
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 #login {
     text-decoration: none;
-    box-shadow: 0 1px 0 rgba(0,0,0,.15);
+    box-shadow: 2px 5px 8px rgba(0,0,0,.15);
     border: 1px solid #4285f4;
     font-weight: bold;
     background: -moz-linear-gradient(top,#4387fd,#4683ea);
     color: #fff;
     padding: 8px 10px;
     margin-left: 10px;
+}
+
+#login:hover {
+    background: #3969b7;
+    box-shadow: 2px 5px 8px rgba(0,0,0,.15);
 }
 
 
@@ -93,7 +121,7 @@ nav {
     background-color: transparent;
     border: none;
     padding: 0px;
-    color: rgba(0,0,0,.87);
+    color: var(--black-standar);
     font-size: 16px;
     width: 100%;
 }
