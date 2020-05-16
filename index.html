@@ -9,25 +9,27 @@
 <body>
     <header>
         <nav>
-           <a href="#">Gmail</a>
-            <a href="#">Imágenes</a>
-            <img src="./images/logo-menu.png" alt="menú">
-            <img src="./images/user-icon.jpg" alt="user-icon">
+            <a class="nav-menu" href="#">Gmail</a>
+            <a class="nav-menu" href="#">Imágenes</a>
+            <img id="menu" src="./images/logo-menu.png" alt="menú">
+            <a id="login" href="#">Iniciar sesión</a>
         </nav>
     </header>
     <section class="container">
-        <img src="./images/logo-google.jpg" alt="logo-google">
+        <img class="logo" src="./images/logo-google.jpg" alt="logo-google">
+        <div class="searching">
         <div class="cja-search">
-            <img class="logo" src="./images/lupa-icon.jpg" alt="lupa-icon">
+            <img src="./images/lupa-icon.png" alt="lupa-icon">
             <input  class="search" type="text">
         </div>
-        <div class="buttons">
-            <input class="btn" type="submit" value="Buscar en Google">
-            <input class="btn" type="submit" value="Me siento con suerte">
-        </div>
-        <div class="lenguaje">
-            <p>Ofrecido por Google en:</p>
-            <a href="#">Español (Latinoamérica)</a>
+            <div class="buttons">
+                <input class="btn" type="submit" value="Buscar en Google">
+                <input class="btn" type="submit" value="Me siento con suerte">
+            </div>
+            <div class="lenguaje">
+                <p>Ofrecido por Google en:</p>
+                <a href="#">Español (Latinoamérica)</a>
+            </div>
         </div>
     </section>
     <footer>

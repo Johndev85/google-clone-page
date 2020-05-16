@@ -5,7 +5,7 @@
 }
 
 html, body {
-    width: 1360px;
+    width: 1280px;
     height: 100%;
     font-size: small;
 }
@@ -23,25 +23,51 @@ header {
 
 nav {
     margin-right: 30px;
-}
-
-nav img {
     margin-top: 10px;
 }
+
+.nav-menu {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    margin-right: 10px;
+}
+
+.nav-menu:hover {
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+#login {
+    text-decoration: none;
+    box-shadow: 0 1px 0 rgba(0,0,0,.15);
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    background: -moz-linear-gradient(top,#4387fd,#4683ea);
+    color: #fff;
+    padding: 8px 10px;
+    margin-left: 10px;
+}
+
+
 .container {
     display: inherit;
     align-self: flex-start;
     justify-self: center;
+    align-self: normal;
+    margin-top: 50px;
     margin-bottom: 20px;
 }
 
-img style {
-    width: 50%;
+.logo {
+    width: 40%;
+    display: inherit;
+    justify-self: center;
     background-color: transparent;
     border: none;
+    margin-bottom: 10px;
 }
 
-.logo {
+.searching {
     display: inherit;
     justify-self: center;
 }
@@ -49,8 +75,8 @@ img style {
 .cja-search {
     display: flex;
     justify-content: left;
-    width: 450px;
-    height: 35px;
+    width: 500px;
+    height: 40px;
     border: 1px solid #dfe1e5;
     box-shadow: none;
     border-radius: 25px;
@@ -97,11 +123,11 @@ input .btn:hover {
 .lenguaje {
     display: flex;
     justify-content: center;
-    margin-right: 10px;
     color: #222;
 }
 
 .lenguaje a {
+    margin-left: 10px;
     text-decoration: none;
 }
 
@@ -115,7 +141,7 @@ footer {
     font-size: 14px;
     width:1440px;
     height: 30px;
-    margin-top: 230px;
+    margin-top: 260px;
     background-color: #f2f2f2;
 }
 
@@ -126,7 +152,6 @@ footer {
     text-align: left;
     margin-top: 10px;
     margin-right: 50px;
-}
 }
 
 .about a {
